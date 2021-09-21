@@ -1,17 +1,19 @@
-
+import Sidebar from './Sidebar'
 import './App.css';
 import Header from './Header';
+import RecommendedVideos from './RecommendedVideos';
 
 function App() {
   return (
     //BEM Naming convention!!!!
     <div className="app">
-      {/* <h1>Lets Build Youtube Clone</h1> */}
 
       <Header />
-      {/* header */}
-      {/* side Bar */}
-      {/* Recommendations.... */}
+      <div className="app__page">
+        <Sidebar />
+        <RecommendedVideos />
+      </div>
+      
     </div>
   );
 }
