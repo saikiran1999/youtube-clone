@@ -22,3 +22,13 @@
 .searchPage__filter > h2{
     margin-left: 10px;
 }
+
+.videoCard__top{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    max-height: 2.2rem;
+    color: #030303;
+    letter-spacing: normal;
+    line-height: 2rem;
+}
